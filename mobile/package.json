@@ -1,0 +1,23 @@
+diff --git a/mobile/package.json b/mobile/package.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..2a311fedf2b9fc913405cf3a112e58aae5748ce1
+--- /dev/null
++++ b/mobile/package.json
+@@ -0,0 +1,17 @@
++{
++  "name": "yolkargo-mobile",
++  "version": "0.1.0",
++  "main": "node_modules/expo/AppEntry.js",
++  "scripts": {
++    "start": "expo start",
++    "android": "expo run:android",
++    "ios": "expo run:ios",
++    "web": "expo start --web"
++  },
++  "dependencies": {
++    "expo": "~50.0.6",
++    "expo-status-bar": "~1.11.1",
++    "react": "18.2.0",
++    "react-native": "0.73.4"
++  }
++}
