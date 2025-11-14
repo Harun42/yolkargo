@@ -1,0 +1,162 @@
+diff --git a/web/index.html b/web/index.html
+new file mode 100644
+index 0000000000000000000000000000000000000000..c96f1a5073bd8efcb3b21328592466938e16e765
+--- /dev/null
++++ b/web/index.html
+@@ -0,0 +1,156 @@
++<!DOCTYPE html>
++<html lang="tr">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <title>YolKargo | Şehirler Arası Yol Arkadaşı Kargo Platformu</title>
++    <link rel="stylesheet" href="styles.css" />
++    <link rel="preconnect" href="https://fonts.googleapis.com" />
++    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
++    <link
++      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
++      rel="stylesheet"
++    />
++  </head>
++  <body>
++    <header class="hero">
++      <nav class="nav">
++        <div class="logo">YolKargo</div>
++        <div class="cta-buttons">
++          <a href="#driver" class="btn secondary">Sürücü Ol</a>
++          <a href="#sender" class="btn primary">Kargo Gönder</a>
++        </div>
++      </nav>
++      <div class="hero-content">
++        <h1>Seyahatini kazanca dönüştür, kargon güvenle yola çıksın.</h1>
++        <p>
++          YolKargo, araçlarında boş alanı olan sürücüler ile uygun fiyata kargo
++          göndermek isteyen bireyleri buluşturan güvenli ve hızlı bir
++          platformdur.
++        </p>
++        <div class="store-buttons">
++          <a class="store google" href="#">Google Play (yakında)</a>
++          <a class="store apple" href="#">App Store (yakında)</a>
++        </div>
++      </div>
++    </header>
++
++    <main>
++      <section class="features" id="platform">
++        <h2>Platform Özellikleri</h2>
++        <div class="feature-grid">
++          <article>
++            <h3>Akıllı Eşleşme</h3>
++            <p>
++              Sürücü ve göndericileri tarih, rota, fiyat ve paket boyutuna göre
++              otomatik olarak eşleştirir.
++            </p>
++          </article>
++          <article>
++            <h3>Canlı Sohbet</h3>
++            <p>
++              Detayları hızlıca netleştirmeniz için uygulama içi sohbet ve teklif
++              yönetimi.
++            </p>
++          </article>
++          <article>
++            <h3>Güvenlik ve Sigorta</h3>
++            <p>
++              Kimlik doğrulama, plaka kontrolü ve isteğe bağlı kargo sigortası
++              ile gönül rahatlığı.
++            </p>
++          </article>
++          <article>
++            <h3>Konum Takibi</h3>
++            <p>
++              Harita entegrasyonu sayesinde gönderinizin yolculuğunu canlı takip
++              edin.
++            </p>
++          </article>
++        </div>
++      </section>
++
++      <section class="panels" id="driver">
++        <div class="panel-content">
++          <h2>Sürücü Paneli</h2>
++          <ul>
++            <li>Rota ve tarih bilgilerini paylaş</li>
++            <li>Araç tipini ve boş alanı belirt</li>
++            <li>Uygun gördüğün fiyat aralığını yayınla</li>
++          </ul>
++        </div>
++        <img src="images/driver-panel.svg" alt="Sürücü paneli" />
++      </section>
++
++      <section class="panels reverse" id="sender">
++        <img src="images/sender-panel.svg" alt="Gönderici paneli" />
++        <div class="panel-content">
++          <h2>Gönderici Paneli</h2>
++          <ul>
++            <li>Kargonun çıkış-varış noktalarını gir</li>
++            <li>Paket boyutu ve önem derecesini belirt</li>
++            <li>Sabit fiyat veya teklif modunu seç</li>
++          </ul>
++        </div>
++      </section>
++
++      <section class="how-it-works" id="how">
++        <h2>Nasıl Çalışır?</h2>
++        <ol>
++          <li>Sürücüler ve göndericiler ilan oluşturur.</li>
++          <li>Yapay zekâ destekli eşleştirme önerileri alınır.</li>
++          <li>Sohbet ile detayları görüşüp anlaşma sağlanır.</li>
++          <li>Kargo sigortası ve ödeme sistemleri ile güvence.</li>
++        </ol>
++      </section>
++
++      <section class="revenue" id="revenue">
++        <h2>Kazanç Modeli</h2>
++        <div class="revenue-grid">
++          <article>
++            <h3>Komisyon</h3>
++            <p>Her başarılı işlemden küçük bir komisyon.</p>
++          </article>
++          <article>
++            <h3>Premium Üyelik</h3>
++            <p>Daha fazla görünürlük ve hızlı eşleşmeler.</p>
++          </article>
++          <article>
++            <h3>Reklam Alanları</h3>
++            <p>İlgili ürün ve hizmetlere özel reklam spotları.</p>
++          </article>
++        </div>
++      </section>
++
++      <section class="cta" id="signup">
++        <h2>YolKargo topluluğuna katıl</h2>
++        <p>
++          Sürücüler için gelir fırsatı, göndericiler için uygun maliyetli ve
++          güvenli kargo deneyimi.
++        </p>
++        <a class="btn primary" href="https://forms.gle/" target="_blank"
++          >Erken Kayıt Formu</a
++        >
++      </section>
++    </main>
++
++    <footer>
++      <div class="footer-columns">
++        <div>
++          <h4>YolKargo</h4>
++          <p>Şehirler arası kargo paylaşım platformu.</p>
++        </div>
++        <div>
++          <h4>İletişim</h4>
++          <p>hello@yolkargo.com</p>
++          <p>+90 555 000 00 00</p>
++        </div>
++        <div>
++          <h4>Takip Et</h4>
++          <p>Instagram · Twitter · LinkedIn</p>
++        </div>
++      </div>
++      <p class="copyright">© 2024 YolKargo. Tüm hakları saklıdır.</p>
++    </footer>
++  </body>
++</html>
