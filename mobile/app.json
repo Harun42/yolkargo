@@ -1,0 +1,34 @@
+diff --git a/mobile/app.json b/mobile/app.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..9a2713bd4fa580db3e1adb0dc5a8213e28cabc25
+--- /dev/null
++++ b/mobile/app.json
+@@ -0,0 +1,28 @@
++{
++  "expo": {
++    "name": "YolKargo",
++    "slug": "yolkargo",
++    "version": "0.1.0",
++    "orientation": "portrait",
++    "icon": "./assets/icon.png",
++    "userInterfaceStyle": "light",
++    "splash": {
++      "image": "./assets/splash.png",
++      "resizeMode": "contain",
++      "backgroundColor": "#FF7A00"
++    },
++    "assetBundlePatterns": ["**/*"],
++    "ios": {
++      "supportsTablet": true
++    },
++    "android": {
++      "adaptiveIcon": {
++        "foregroundImage": "./assets/adaptive-icon.png",
++        "backgroundColor": "#FF7A00"
++      }
++    },
++    "web": {
++      "favicon": "./assets/favicon.png"
++    }
++  }
++}
