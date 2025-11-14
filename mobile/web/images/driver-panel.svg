@@ -1,0 +1,15 @@
+diff --git a/web/images/driver-panel.svg b/web/images/driver-panel.svg
+new file mode 100644
+index 0000000000000000000000000000000000000000..a0afbd0f294b9b4097c67c0cc4511e8fe4887ef6
+--- /dev/null
++++ b/web/images/driver-panel.svg
+@@ -0,0 +1,9 @@
++<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
++  <rect width="400" height="280" rx="24" fill="#FFF4EB" />
++  <rect x="32" y="48" width="336" height="56" rx="12" fill="#FFD4B5" />
++  <rect x="32" y="120" width="200" height="40" rx="12" fill="#FFB782" />
++  <rect x="32" y="176" width="240" height="40" rx="12" fill="#FFE0CC" />
++  <circle cx="320" cy="196" r="36" fill="#FF7A00" />
++  <path d="M320 176L328 204L304 204L312 176Z" fill="white" />
++  <text x="48" y="82" fill="#7B341E" font-family="Inter" font-size="18" font-weight="600">Sürücü Paneli</text>
++</svg>
