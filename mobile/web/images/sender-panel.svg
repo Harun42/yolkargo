@@ -1,0 +1,15 @@
+diff --git a/web/images/sender-panel.svg b/web/images/sender-panel.svg
+new file mode 100644
+index 0000000000000000000000000000000000000000..3de384da14df95e7582b3fd3d3a17efc204456af
+--- /dev/null
++++ b/web/images/sender-panel.svg
+@@ -0,0 +1,9 @@
++<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
++  <rect width="400" height="280" rx="24" fill="#EBF2FF" />
++  <rect x="32" y="48" width="336" height="56" rx="12" fill="#BDD3FF" />
++  <rect x="32" y="120" width="260" height="40" rx="12" fill="#94B5FF" />
++  <rect x="32" y="176" width="180" height="40" rx="12" fill="#D7E3FF" />
++  <circle cx="320" cy="88" r="24" fill="#1F51FF" />
++  <path d="M312 88L318 94L332 80" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
++  <text x="48" y="82" fill="#1A2A5E" font-family="Inter" font-size="18" font-weight="600">Gönderici Paneli</text>
++</svg>
